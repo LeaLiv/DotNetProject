@@ -1,4 +1,4 @@
 ﻿namespace DO;
 
-    public enum Category { בנים, בנות, תינוקות, אלגנט, אקססוריז }
+public enum Category { בנים, בנות, תינוקות, אלגנט, אקססוריז }
 

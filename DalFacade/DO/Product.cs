@@ -6,7 +6,7 @@ namespace DO
         (int ProductId,
         string? ProductName = null,
         Category? category = null,
-        double? Price = 0.0,
+        double Price = 0.0,
         int? QuantityInStock = 0)
     {
 
@@ -14,5 +14,9 @@ namespace DO
         {
 
         }
+
+    
+
+
     }
 }

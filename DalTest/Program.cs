@@ -1,4 +1,4 @@
-﻿using Dal;
+﻿
 using DalApi;
 using DalTest;
 using DO;
@@ -7,13 +7,13 @@ using System.Reflection;
 
 internal class Program
 {
-    private static readonly IDal s_dal = new DalList();
+    private static readonly IDal s_dal = Factory.Get;
 
     public static void Main(string[] args)
     {
         try
         {
-            Initialization.Initialize(s_dal);
+            Initialization.Initialize();
         }
         catch (Exception e)
         {

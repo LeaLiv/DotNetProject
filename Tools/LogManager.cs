@@ -3,7 +3,7 @@ namespace Tools
 {
     public static class LogManager
     {
-        static string path = "Log";
+        private const string path = "Log";
         public static string tabs = "";
 
         public static string getCurrentFolderPath()
@@ -33,7 +33,7 @@ namespace Tools
                 File.Create(filePath).Close();
             }
             File.AppendAllText(filePath, $"{tabs}{DateTime.Now}\t{projectName}.{funcName}:\t{message}" + Environment.NewLine);
-            Console.WriteLine($"{tabs}{DateTime.Now}\t{projectName}.{funcName}:\t{message}");
+            //Console.WriteLine($"{tabs}{DateTime.Now}\t{projectName}.{funcName}:\t{message}");
         }
         public static void cleanLogFolder()
         {

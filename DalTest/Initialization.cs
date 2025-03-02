@@ -32,9 +32,9 @@ namespace DalTest;
             s_dal.Sale.Create(new Sale(0, 103, 2, 100, false, DateTime.Now, new DateTime(2024, 12, 5)));
             s_dal.Sale.Create(new Sale(0, 104, 4, 200, true, DateTime.Now, new DateTime(2024, 12, 5)));
         }
-    public static void Initialize(IDal dal)
+    public static void Initialize()
     {
-        s_dal = dal;
+        s_dal = Factory.Get;
         createCustomers();
         createProducts();
         createSales();
