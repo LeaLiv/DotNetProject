@@ -9,3 +9,6 @@ Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\Tools\obj\Debug\Tools.dll
 Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\Tools\obj\Debug\refint\Tools.dll
 Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\Tools\obj\Debug\Tools.pdb
 Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\Tools\obj\Debug\ref\Tools.dll
+C:\Lea\DotNetProject\Tools\obj\Debug\Tools.dll
+C:\Lea\DotNetProject\Tools\obj\Debug\refint\Tools.dll
+C:\Lea\DotNetProject\Tools\obj\Debug\Tools.pdb

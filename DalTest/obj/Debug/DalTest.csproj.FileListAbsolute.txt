@@ -14,3 +14,20 @@ Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\DalTest\obj\Debug\DalTest.pdb
 Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
 Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\DalTest\obj\Debug\ref\DalTest.dll
 Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\DalTest\obj\Debug\DalTest.csproj.Up2Date
+C:\Lea\DotNetProject\bin\DalTest.exe
+C:\Lea\DotNetProject\bin\DalTest.deps.json
+C:\Lea\DotNetProject\bin\DalTest.runtimeconfig.json
+C:\Lea\DotNetProject\bin\DalTest.dll
+C:\Lea\DotNetProject\bin\DalTest.pdb
+C:\Lea\DotNetProject\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+C:\Lea\DotNetProject\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Lea\DotNetProject\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+C:\Lea\DotNetProject\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+C:\Lea\DotNetProject\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+C:\Lea\DotNetProject\DalTest\obj\Debug\DalTest.sourcelink.json
+C:\Lea\DotNetProject\DalTest\obj\Debug\DalTest.csproj.Up2Date
+C:\Lea\DotNetProject\DalTest\obj\Debug\DalTest.dll
+C:\Lea\DotNetProject\DalTest\obj\Debug\refint\DalTest.dll
+C:\Lea\DotNetProject\DalTest\obj\Debug\DalTest.pdb
+C:\Lea\DotNetProject\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
+C:\Lea\DotNetProject\DalTest\obj\Debug\ref\DalTest.dll
