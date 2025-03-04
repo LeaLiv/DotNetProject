@@ -22,7 +22,7 @@ namespace Dal
             Product p = item with { ProductId = DataSource.Config.ProductCode };
             DataSource.Products.Add(p); 
             LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, " Leava the function");
-
+            LogManager.tabs = LogManager.tabs.Substring(1);
             return p.ProductId;
            
 
