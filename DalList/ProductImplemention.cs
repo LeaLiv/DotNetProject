@@ -12,11 +12,17 @@ namespace Dal
         {
             LogManager.tabs += "\t";
             LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, " Enter to function");
-
+            if (DataSource.Products.Any(p=>p.ProductId==item.ProductId))
+            {
+                //LogManager.tabs += "\t";
+                //LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "");  
+                //LogManager.tabs = LogManager.tabs.Substring(1);
+                throw new DalExceptionIdAllreadyExist("product id allready exists");
+            }
             Product p = item with { ProductId = DataSource.Config.ProductCode };
             DataSource.Products.Add(p); 
             LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, " Leava the function");
-            LogManager.tabs = LogManager.tabs.Substring(1);
+
             return p.ProductId;
            
 

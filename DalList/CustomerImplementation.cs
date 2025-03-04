@@ -21,11 +21,11 @@ internal class CustomerImplementation : ICustomer
 
     public void Delete(int id)
     {
-        LogManager.tabs += "\t";
-        LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, " Enter to function");
-        DataSource.Customers.Remove(Read(id));
-        LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, " Leava the function");
-        LogManager.tabs = LogManager.tabs.Substring(1);
+            LogManager.tabs += "\t";
+            LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, " Enter to function");
+            DataSource.Customers.Remove(Read(id));
+            LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, " Leava the function");
+            LogManager.tabs = LogManager.tabs.Substring(1);       
     }
 
     public Customer? Read(int id)
@@ -47,6 +47,7 @@ internal class CustomerImplementation : ICustomer
 
     public List<Customer?> ReadAll(Func<Customer, bool>? filter = null)
     {
+
         LogManager.tabs += "\t";
         LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, " Enter to function");
         if (filter == null)

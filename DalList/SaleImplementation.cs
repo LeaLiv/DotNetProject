@@ -11,7 +11,10 @@ internal class SaleImplementation : ISale
     {
         LogManager.tabs += "\t";
         LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, " Enter to function");
-
+        if (DataSource.Sales.Any(s => s.SaleId == item.SaleId))
+        {
+            throw new DalExceptionIdAllreadyExist("Sale id allready exists");
+        }
         Sale s = item with { SaleId = DataSource.Config.SaleCode };
         DataSource.Sales.Add(s);
         LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, " Leava the function");

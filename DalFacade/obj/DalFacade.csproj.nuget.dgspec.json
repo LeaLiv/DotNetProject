@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Lea\\DotNetProject\\DalFacade\\DalFacade.csproj": {}
+    "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\DalFacade\\DalFacade.csproj": {}
   },
   "projects": {
-    "C:\\Lea\\DotNetProject\\DalFacade\\DalFacade.csproj": {
+    "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\DalFacade\\DalFacade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Lea\\DotNetProject\\DalFacade\\DalFacade.csproj",
+        "projectUniqueName": "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\DalFacade\\DalFacade.csproj",
         "projectName": "DalFacade",
-        "projectPath": "C:\\Lea\\DotNetProject\\DalFacade\\DalFacade.csproj",
-        "packagesPath": "C:\\Users\\leahl\\.nuget\\packages\\",
-        "outputPath": "C:\\Lea\\DotNetProject\\DalFacade\\obj\\",
+        "projectPath": "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\DalFacade\\DalFacade.csproj",
+        "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
+        "outputPath": "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\DalFacade\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\leahl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\huser\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -43,9 +43,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -66,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,40 +1,79 @@
 ﻿
 using BlApi;
 using BO;
+using DO;
+
 
 namespace BlImplementation;
 
-internal class SaleImplementation:ISale
+internal class SaleImplementation : ISale
 {
     private DalApi.IDal _dal = DalApi.Factory.Get;
 
-    public int Create(Sale item)
+    public int Create(BO.Sale item)
     {
-        throw new NotImplementedException();
+        try
+        {
+            return _dal.Sale.Create(item.Convert());
+        }
+        catch (DO.DalExceptionIdAllreadyExist e)
+        {
+            throw new BLExceptionIdAllreadyExist(e.Message);
+        }
     }
 
     public void Delete(int id)
     {
-        throw new NotImplementedException();
+        try
+        {
+            _dal.Sale.Delete(id);
+        }
+        catch (DalExceptionIdNotExist e)
+        {
+            throw new BLExceptionIdNotExist(e.Message);
+        }
     }
 
-    public Sale? Read(int id)
+    public BO.Sale? Read(int id)
     {
-        throw new NotImplementedException();
+        try
+        {
+            return _dal.Sale.Read(id).Convert();
+        }
+        catch (DalExceptionIdNotExist e)
+        {
+            throw new BLExceptionIdNotExist(e.Message);
+        }
     }
 
-    public Sale? Read(Func<Sale, bool> filter)
+    public BO.Sale? Read(Func<BO.Sale, bool> filter)
     {
-        throw new NotImplementedException();
+        try
+        {
+            return _dal.Sale.Read(s => filter(s.Convert())).Convert();
+        }
+        catch (DalExceptionIdNotExist e)
+        {
+            throw new BLExceptionIdNotExist(e.Message);
+        }
     }
 
-    public List<Sale?> ReadAll(Func<Sale, bool>? filter = null)
+    public List<BO.Sale?> ReadAll(Func<BO.Sale, bool>? filter = null)
     {
-        throw new NotImplementedException();
+        List<DO.Sale> lst;
+        if (filter != null)
+            lst = _dal.Sale.ReadAll(p => filter(p.Convert()));
+        else lst = _dal.Sale.ReadAll();
+        List<BO.Sale> lst2 = new List<BO.Sale>();
+        foreach (var item in lst)
+        {
+            lst2.Add(item.Convert());
+        }
+        return lst2;
     }
 
-    public void Update(Sale item)
+    public void Update(BO.Sale item)
     {
-        throw new NotImplementedException();
+        _dal.Sale.Update(item.Convert());
     }
 }

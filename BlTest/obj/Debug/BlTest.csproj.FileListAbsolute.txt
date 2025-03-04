@@ -1,0 +1,17 @@
+Z:\B\ליבשיץ לאה\C#\DotNetProject\BlTest\obj\Debug\BlTest.csproj.AssemblyReference.cache
+Z:\B\ליבשיץ לאה\C#\DotNetProject\BlTest\obj\Debug\BlTest.GeneratedMSBuildEditorConfig.editorconfig
+Z:\B\ליבשיץ לאה\C#\DotNetProject\BlTest\obj\Debug\BlTest.AssemblyInfoInputs.cache
+Z:\B\ליבשיץ לאה\C#\DotNetProject\BlTest\obj\Debug\BlTest.AssemblyInfo.cs
+Z:\B\ליבשיץ לאה\C#\DotNetProject\BlTest\obj\Debug\BlTest.csproj.CoreCompileInputs.cache
+Z:\B\ליבשיץ לאה\C#\DotNetProject\BlTest\obj\Debug\BlTest.sourcelink.json
+Z:\B\ליבשיץ לאה\C#\DotNetProject\bin\BlTest.exe
+Z:\B\ליבשיץ לאה\C#\DotNetProject\bin\BlTest.deps.json
+Z:\B\ליבשיץ לאה\C#\DotNetProject\bin\BlTest.runtimeconfig.json
+Z:\B\ליבשיץ לאה\C#\DotNetProject\bin\BlTest.dll
+Z:\B\ליבשיץ לאה\C#\DotNetProject\bin\BlTest.pdb
+Z:\B\ליבשיץ לאה\C#\DotNetProject\BlTest\obj\Debug\BlTest.csproj.Up2Date
+Z:\B\ליבשיץ לאה\C#\DotNetProject\BlTest\obj\Debug\BlTest.dll
+Z:\B\ליבשיץ לאה\C#\DotNetProject\BlTest\obj\Debug\refint\BlTest.dll
+Z:\B\ליבשיץ לאה\C#\DotNetProject\BlTest\obj\Debug\BlTest.pdb
+Z:\B\ליבשיץ לאה\C#\DotNetProject\BlTest\obj\Debug\BlTest.genruntimeconfig.cache
+Z:\B\ליבשיץ לאה\C#\DotNetProject\BlTest\obj\Debug\ref\BlTest.dll

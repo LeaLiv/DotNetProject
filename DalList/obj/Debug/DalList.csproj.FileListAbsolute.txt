@@ -25,3 +25,17 @@ C:\Lea\DotNetProject\DalList\obj\Debug\DalList.dll
 C:\Lea\DotNetProject\DalList\obj\Debug\refint\DalList.dll
 C:\Lea\DotNetProject\DalList\obj\Debug\DalList.pdb
 C:\Lea\DotNetProject\DalList\obj\Debug\ref\DalList.dll
+Z:\B\ליבשיץ לאה\C#\DotNetProject\bin\DalList.deps.json
+Z:\B\ליבשיץ לאה\C#\DotNetProject\bin\DalList.dll
+Z:\B\ליבשיץ לאה\C#\DotNetProject\bin\DalList.pdb
+Z:\B\ליבשיץ לאה\C#\DotNetProject\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+Z:\B\ליבשיץ לאה\C#\DotNetProject\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+Z:\B\ליבשיץ לאה\C#\DotNetProject\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+Z:\B\ליבשיץ לאה\C#\DotNetProject\DalList\obj\Debug\DalList.AssemblyInfo.cs
+Z:\B\ליבשיץ לאה\C#\DotNetProject\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+Z:\B\ליבשיץ לאה\C#\DotNetProject\DalList\obj\Debug\DalList.sourcelink.json
+Z:\B\ליבשיץ לאה\C#\DotNetProject\DalList\obj\Debug\DalList.csproj.Up2Date
+Z:\B\ליבשיץ לאה\C#\DotNetProject\DalList\obj\Debug\DalList.dll
+Z:\B\ליבשיץ לאה\C#\DotNetProject\DalList\obj\Debug\refint\DalList.dll
+Z:\B\ליבשיץ לאה\C#\DotNetProject\DalList\obj\Debug\DalList.pdb
+Z:\B\ליבשיץ לאה\C#\DotNetProject\DalList\obj\Debug\ref\DalList.dll

@@ -45,7 +45,7 @@ internal static class Tools
     }
     public static BO.Sale Convert(this DO.Sale sale)
     {
-        return new BO.Sale(sale.SaleId, sale.ProductId, sale.MinAmount, sale.SalePrice, sale.ClubSale, sale.StartSale, sale.FinishSale);
+        return new BO.Sale(sale.SaleId, sale.ProductId, sale.MinAmount, (double)sale.SalePrice, sale.ClubSale, sale.StartSale, sale.FinishSale);
     }
 
     public static DO.Product ChangeQuantity(this DO.Product product, int quantity) => new DO.Product { ProductId = product.ProductId, ProductName = product.ProductName, QuantityInStock =product.QuantityInStock-quantity, Price = product.Price, category = product.category };

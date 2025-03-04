@@ -2,6 +2,7 @@
 
 using BlApi;
 using BO;
+using DO;
 
 namespace BlImplementation;
 
@@ -11,31 +12,39 @@ public class OrderImplementation : IOrder
 
     public List<SaleInProduct> AddProductToOrder(Order order, int productId, int quantity)
     {
-        DO.Product product = _dal.Product.Read(productId);
-        ProductInOrder productInOrder = order.ProductsInOrder.Find(s => s.ProductId == productId);
-        if (productInOrder != null)
+        try
         {
-            if (quantity <= product.QuantityInStock)
+
+            DO.Product product = _dal.Product.Read(productId);
+            ProductInOrder productInOrder = order.ProductsInOrder.Find(s => s.ProductId == productId);
+            if (productInOrder != null)
             {
-                productInOrder.QuantityInOrder += quantity;
+                if (quantity <= product.QuantityInStock)
+                {
+                    productInOrder.QuantityInOrder += quantity;
+                }
+                else
+                {
+                    throw new BLExceptionNotInStock("not enoght in stock");
+                }
             }
             else
             {
-                throw new Exception("not enoght in stock");
-            }
-        }
-        else
-        {
-            if (quantity <= product.QuantityInStock)
-            {
-                productInOrder = new ProductInOrder { QuantityInOrder = quantity, BasePrice = product.Price, ProductId = productId, ProductName = product.ProductName, };
-                order.ProductsInOrder.Add(productInOrder);
-            }
+                if (quantity <= product.QuantityInStock)
+                {
+                    productInOrder = new ProductInOrder { QuantityInOrder = quantity, BasePrice = product.Price, ProductId = productId, ProductName = product.ProductName, };
+                    order.ProductsInOrder.Add(productInOrder);
+                }
 
+            }
+            CalcTotalPriceForProduct(productInOrder);
+            CalcTotalPrice(order);
+            return productInOrder.SalesInProduct;
         }
-        CalcTotalPriceForProduct(productInOrder);
-        CalcTotalPrice(order);
-        return productInOrder.SalesInProduct;
+        catch (DalExceptionIdNotExist e)
+        {
+            throw new BLExceptionIdNotExist(e.Message);
+        }
 
     }
 
@@ -67,12 +76,19 @@ public class OrderImplementation : IOrder
 
     public void DoOrder(Order order)
     {
-        //עבור כל מוצר בהזמנה, מייצרים בקשת עדכון ל DAL כדי להוריד ממלאי המוצר את הכמות שבהזמנה.
-        foreach (var item in order.ProductsInOrder)
+        try
         {
-            DO.Product product = _dal.Product.Read(item.ProductId);
-            product = product.ChangeQuantity(item.QuantityInOrder);
-            _dal.Product.Update(product);
+            //עבור כל מוצר בהזמנה, מייצרים בקשת עדכון ל DAL כדי להוריד ממלאי המוצר את הכמות שבהזמנה.
+            foreach (var item in order.ProductsInOrder)
+            {
+                DO.Product product = _dal.Product.Read(item.ProductId);
+                product = product.ChangeQuantity(item.QuantityInOrder);
+                _dal.Product.Update(product);
+            }
+        }
+        catch (DalExceptionIdNotExist e)
+        {
+            throw new BLExceptionIdNotExist(e.Message);
         }
     }
 
@@ -89,4 +105,4 @@ public class OrderImplementation : IOrder
         return saleInProducts;
     }
 }
-}
+

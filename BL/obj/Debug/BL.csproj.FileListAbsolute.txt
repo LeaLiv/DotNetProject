@@ -1,0 +1,14 @@
+Z:\B\ליבשיץ לאה\C#\DotNetProject\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+Z:\B\ליבשיץ לאה\C#\DotNetProject\BL\obj\Debug\BL.GeneratedMSBuildEditorConfig.editorconfig
+Z:\B\ליבשיץ לאה\C#\DotNetProject\BL\obj\Debug\BL.AssemblyInfoInputs.cache
+Z:\B\ליבשיץ לאה\C#\DotNetProject\BL\obj\Debug\BL.AssemblyInfo.cs
+Z:\B\ליבשיץ לאה\C#\DotNetProject\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+Z:\B\ליבשיץ לאה\C#\DotNetProject\BL\obj\Debug\BL.sourcelink.json
+Z:\B\ליבשיץ לאה\C#\DotNetProject\bin\BL.deps.json
+Z:\B\ליבשיץ לאה\C#\DotNetProject\bin\BL.dll
+Z:\B\ליבשיץ לאה\C#\DotNetProject\bin\BL.pdb
+Z:\B\ליבשיץ לאה\C#\DotNetProject\BL\obj\Debug\BL.csproj.Up2Date
+Z:\B\ליבשיץ לאה\C#\DotNetProject\BL\obj\Debug\BL.dll
+Z:\B\ליבשיץ לאה\C#\DotNetProject\BL\obj\Debug\refint\BL.dll
+Z:\B\ליבשיץ לאה\C#\DotNetProject\BL\obj\Debug\BL.pdb
+Z:\B\ליבשיץ לאה\C#\DotNetProject\BL\obj\Debug\ref\BL.dll

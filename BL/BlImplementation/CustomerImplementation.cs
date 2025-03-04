@@ -1,6 +1,7 @@
 ﻿
 using BlApi;
 using BO;
+using DO;
 
 
 
@@ -12,32 +13,59 @@ internal class CustomerImplementation : ICustomer
 
     public int Create(BO.Customer item)
     {
-        return _dal.Customer.Create(item.Convert());
+        try
+        {
+            return _dal.Customer.Create(item.Convert());
+        }
+        catch (DalExceptionIdAllreadyExist e)
+        {
+            throw new BLExceptionIdAllreadyExist(e.Message);
+        }
+
     }
 
     public void Delete(int id)
     {
-        _dal.Customer.Delete(id);
+        try
+        {
+            _dal.Customer.Delete(id);
+        }
+        catch (DalExceptionIdNotExist e)
+        {
+            throw new BLExceptionIdNotExist(e.Message);
+        }
     }
     //----------------------------------------------------
     public bool IsExist(int id)
     {
-        BO.Customer c = Read(id);
+        DO.Customer c = _dal.Customer.ReadAll().FirstOrDefault(c => c.Id == id);
+        if (c == null)
+            return false;
         return true;
     }
     //----------------------------------------------------
     public BO.Customer? Read(int id)
     {
-        return _dal.Customer.Read(id).Convert();
+        try
+        {
+            return _dal.Customer.Read(id).Convert();
+        }
+        catch (DalExceptionIdNotExist e)
+        {
+            throw new BLExceptionIdNotExist(e.Message);
+        }
     }
 
     public BO.Customer? Read(Func<BO.Customer, bool> filter)
     {
-        return _dal.Customer.Read(s => filter(s.Convert())).Convert();
+        try { return _dal.Customer.Read(s => filter(s.Convert())).Convert(); }
+        catch (DalExceptionIdNotExist e) { throw new BLExceptionIdNotExist(e.Message); }
+
     }
 
     public List<BO.Customer?> ReadAll(Func<BO.Customer, bool>? filter = null)
-    { List<DO.Customer> lst;
+    {
+        List<DO.Customer> lst;
         if (filter == null)
         {
             lst = _dal.Customer.ReadAll();
@@ -46,12 +74,12 @@ internal class CustomerImplementation : ICustomer
         {
             lst = _dal.Customer.ReadAll(s => filter(s.Convert()));
         }
-            List<BO.Customer> lst2 = new List<Customer>();
-            foreach (var item in lst)
-            {
-                lst2.Add(item.Convert());
-            }
-            return lst2;
+        List<BO.Customer> lst2 = new List<BO.Customer>();
+        foreach (var item in lst)
+        {
+            lst2.Add(item.Convert());
+        }
+        return lst2;
     }
 
     public void Update(BO.Customer item)

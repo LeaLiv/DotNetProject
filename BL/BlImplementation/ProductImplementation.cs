@@ -1,6 +1,7 @@
 ﻿
 using BlApi;
 using BO;
+using DO;
 
 namespace BlImplementation;
 
@@ -10,12 +11,26 @@ public class ProductImplementation : IProduct
 
     public int Create(BO.Product item)
     {
-        return _dal.Product.Create(item.Convert());
+        try
+        {
+            return _dal.Product.Create(item.Convert());
+        }
+        catch (DO.DalExceptionIdAllreadyExist e)
+        {
+            throw new BLExceptionIdAllreadyExist(e.Message);
+        }
     }
 
     public void Delete(int id)
     {
-        _dal.Product.Delete(id);
+        try
+        {
+            _dal.Product.Delete(id);
+        }
+        catch (DalExceptionIdNotExist e)
+        {
+            throw new BLExceptionIdNotExist(e.Message);
+        }
     }
 
     public List<BO.SaleInProduct> GetAllSalesInProduct(int ProductId, bool? isMemberClub = false)
@@ -32,12 +47,26 @@ public class ProductImplementation : IProduct
 
     public BO.Product? Read(int id)
     {
+        try
+        {
         return _dal.Product.Read(id).Convert();
+        }
+        catch (DalExceptionIdNotExist e)
+        {
+            throw new BLExceptionIdNotExist(e.Message);
+        }
     }
 
     public BO.Product? Read(Func<BO.Product, bool> filter)
     {
-        return _dal.Product.Read(p => filter(p.Convert())).Convert();
+        try
+        {
+            return _dal.Product.Read(p => filter(p.Convert())).Convert();
+        }
+        catch (DalExceptionIdNotExist e)
+        {
+            throw new BLExceptionIdNotExist(e.Message);
+        }
     }
 
     public List<BO.Product?> ReadAll(Func<BO.Product, bool>? filter = null)
