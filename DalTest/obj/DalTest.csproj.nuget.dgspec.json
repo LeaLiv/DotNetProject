@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Lea\\DotNetProject\\DalTest\\DalTest.csproj": {}
+    "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\DalTest\\DalTest.csproj": {}
   },
   "projects": {
-    "C:\\Lea\\DotNetProject\\DalFacade\\DalFacade.csproj": {
+    "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\DalFacade\\DalFacade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Lea\\DotNetProject\\DalFacade\\DalFacade.csproj",
+        "projectUniqueName": "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\DalFacade\\DalFacade.csproj",
         "projectName": "DalFacade",
-        "projectPath": "C:\\Lea\\DotNetProject\\DalFacade\\DalFacade.csproj",
-        "packagesPath": "C:\\Users\\leahl\\.nuget\\packages\\",
-        "outputPath": "C:\\Lea\\DotNetProject\\DalFacade\\obj\\",
+        "projectPath": "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\DalFacade\\DalFacade.csproj",
+        "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
+        "outputPath": "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\DalFacade\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\leahl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\huser\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -66,24 +66,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Lea\\DotNetProject\\DalList\\DalList.csproj": {
+    "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\DalList\\DalList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Lea\\DotNetProject\\DalList\\DalList.csproj",
+        "projectUniqueName": "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\DalList\\DalList.csproj",
         "projectName": "DalList",
-        "projectPath": "C:\\Lea\\DotNetProject\\DalList\\DalList.csproj",
-        "packagesPath": "C:\\Users\\leahl\\.nuget\\packages\\",
-        "outputPath": "C:\\Lea\\DotNetProject\\DalList\\obj\\",
+        "projectPath": "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\DalList\\DalList.csproj",
+        "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
+        "outputPath": "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\DalList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\leahl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\huser\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -99,11 +99,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Lea\\DotNetProject\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "C:\\Lea\\DotNetProject\\DalFacade\\DalFacade.csproj"
+              "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\DalFacade\\DalFacade.csproj"
               },
-              "C:\\Lea\\DotNetProject\\Tools\\Tools.csproj": {
-                "projectPath": "C:\\Lea\\DotNetProject\\Tools\\Tools.csproj"
+              "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\Tools\\Tools.csproj": {
+                "projectPath": "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\Tools\\Tools.csproj"
               }
             }
           }
@@ -118,7 +118,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -139,24 +139,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Lea\\DotNetProject\\DalTest\\DalTest.csproj": {
+    "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\DalTest\\DalTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Lea\\DotNetProject\\DalTest\\DalTest.csproj",
+        "projectUniqueName": "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\DalTest\\DalTest.csproj",
         "projectName": "DalTest",
-        "projectPath": "C:\\Lea\\DotNetProject\\DalTest\\DalTest.csproj",
-        "packagesPath": "C:\\Users\\leahl\\.nuget\\packages\\",
-        "outputPath": "C:\\Lea\\DotNetProject\\DalTest\\obj\\",
+        "projectPath": "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\DalTest\\DalTest.csproj",
+        "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
+        "outputPath": "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\DalTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\leahl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\huser\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -172,14 +172,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Lea\\DotNetProject\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "C:\\Lea\\DotNetProject\\DalFacade\\DalFacade.csproj"
+              "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\DalFacade\\DalFacade.csproj"
               },
-              "C:\\Lea\\DotNetProject\\DalList\\DalList.csproj": {
-                "projectPath": "C:\\Lea\\DotNetProject\\DalList\\DalList.csproj"
+              "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\DalList\\DalList.csproj": {
+                "projectPath": "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\DalList\\DalList.csproj"
               },
-              "C:\\Lea\\DotNetProject\\Tools\\Tools.csproj": {
-                "projectPath": "C:\\Lea\\DotNetProject\\Tools\\Tools.csproj"
+              "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\Tools\\Tools.csproj": {
+                "projectPath": "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\Tools\\Tools.csproj"
               }
             }
           }
@@ -194,7 +194,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -215,24 +215,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Lea\\DotNetProject\\Tools\\Tools.csproj": {
+    "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\Tools\\Tools.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Lea\\DotNetProject\\Tools\\Tools.csproj",
+        "projectUniqueName": "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\Tools\\Tools.csproj",
         "projectName": "Tools",
-        "projectPath": "C:\\Lea\\DotNetProject\\Tools\\Tools.csproj",
-        "packagesPath": "C:\\Users\\leahl\\.nuget\\packages\\",
-        "outputPath": "C:\\Lea\\DotNetProject\\Tools\\obj\\",
+        "projectPath": "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\Tools\\Tools.csproj",
+        "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
+        "outputPath": "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\Tools\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\leahl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\huser\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -260,7 +260,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -281,7 +281,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

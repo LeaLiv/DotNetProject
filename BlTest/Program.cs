@@ -18,6 +18,17 @@ public class program
             LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, e.Message);
             Console.WriteLine(e);
         }
+        bool flag;
+        Console.WriteLine("insert your id ");
+        string x=Console.ReadLine();
+        if (x !="0")
+            flag = true;
+        Console.WriteLine("insert product details");
+        int choise = 1;
+        while (choise == 1)
+        {
+            Console.ReadLine();
+        }
 
     }
 }

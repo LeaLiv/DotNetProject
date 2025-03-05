@@ -24,12 +24,3 @@ Z:\B\ליבשיץ לאה\C#\DotNetProject\Tools\obj\Debug\Tools.dll
 Z:\B\ליבשיץ לאה\C#\DotNetProject\Tools\obj\Debug\refint\Tools.dll
 Z:\B\ליבשיץ לאה\C#\DotNetProject\Tools\obj\Debug\Tools.pdb
 Z:\B\ליבשיץ לאה\C#\DotNetProject\Tools\obj\Debug\ref\Tools.dll
-C:\Lea\DotNetProject\bin\Tools.deps.json
-C:\Lea\DotNetProject\bin\Tools.dll
-C:\Lea\DotNetProject\bin\Tools.pdb
-C:\Lea\DotNetProject\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
-C:\Lea\DotNetProject\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
-C:\Lea\DotNetProject\Tools\obj\Debug\Tools.AssemblyInfo.cs
-C:\Lea\DotNetProject\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
-C:\Lea\DotNetProject\Tools\obj\Debug\Tools.sourcelink.json
-C:\Lea\DotNetProject\Tools\obj\Debug\ref\Tools.dll
