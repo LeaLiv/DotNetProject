@@ -1,6 +1,8 @@
 ﻿
 
 
+using DO;
+
 namespace DO
 {
     public record Sale
@@ -16,5 +18,9 @@ namespace DO
 
         public Sale() : this(-1,-1)
         { }
+
+        public Sale(int SaleId, int ProductId, int? MinAmount = 0, double? SalePrice = 0, bool? ClubSale = true, DateTime? StartSale = null, DateTime? FinishSale = null, object value = null) : this(SaleId, ProductId, MinAmount, SalePrice, ClubSale, StartSale, FinishSale)
+        {
+        }
     }
 }
