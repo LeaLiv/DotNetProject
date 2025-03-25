@@ -1,34 +1,66 @@
 ﻿
 
+using BO;
 using DalTest;
 using System.Reflection;
 using Tools;
 
 public class program
 {
+
     static readonly BlApi.IBl s_bl = BlApi.Factory.Get();
-    public static void Main(string[] args)
+    public static void AddProduct(BO.Order order)
     {
-        try
+        string temp;
+        Console.WriteLine("insert id of product");
+        temp = Console.ReadLine();
+        int id;
+        int.TryParse(temp, out id);
+        Console.WriteLine("insert quantity");
+        temp = Console.ReadLine();
+        int quantity;
+        int.TryParse(temp, out quantity);
+
+        List<BO.SaleInProduct> salse = s_bl.Order.AddProductToOrder(order, id, quantity);
+        //salse.ToString();
+        Console.WriteLine(string.Join(' ', salse));
+        Console.WriteLine(order.Price);
+    }
+
+    public static bool getId()
+    {
+        Console.WriteLine("insert id of customer");
+        string id = Console.ReadLine();
+        if (id == "0")
+            return false;
+        return true;
+    }
+
+    public static void test()
+    {
+        string newOrder = "1";
+        BO.Order order = null;
+        while (newOrder == "1")
         {
-            Initialization.Initialize();
-        }
-        catch (Exception e)
-        {
-            LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, e.Message);
-            Console.WriteLine(e);
-        }
-        bool flag;
-        Console.WriteLine("insert your id ");
-        string x=Console.ReadLine();
-        if (x !="0")
-            flag = true;
-        Console.WriteLine("insert product details");
-        int choise = 1;
-        while (choise == 1)
-        {
-            Console.ReadLine();
+            order = new Order(getId(), null, 0);
+            string newProduct = "1";
+            while (newProduct == "1")
+            {
+                AddProduct(order);
+
+                Console.WriteLine("to add product insert 1, to end order insert 0");
+                newProduct = Console.ReadLine();
+            }
+            Console.WriteLine($"{order.Price}");
+            Console.WriteLine("to add order insert 1, to exit insert 0");
+            newOrder = Console.ReadLine();
         }
 
+    }
+
+    static void Main(string[] args)
+    {
+        DalTest.Initialization.Initialize();
+        test();
     }
 }

@@ -69,11 +69,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\DalTest\\DalTest.csproj",
+      "projectUniqueName": "Z:\\B\\ליבשיץ לאה\\C#\\DotNet2025_8659_0195\\DalTest\\DalTest.csproj",
       "projectName": "DalTest",
-      "projectPath": "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\DalTest\\DalTest.csproj",
+      "projectPath": "Z:\\B\\ליבשיץ לאה\\C#\\DotNet2025_8659_0195\\DalTest\\DalTest.csproj",
       "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
-      "outputPath": "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\DalTest\\obj\\",
+      "outputPath": "Z:\\B\\ליבשיץ לאה\\C#\\DotNet2025_8659_0195\\DalTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -95,14 +95,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\DalFacade\\DalFacade.csproj": {
-              "projectPath": "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\DalFacade\\DalFacade.csproj"
+            "Z:\\B\\ליבשיץ לאה\\C#\\DotNet2025_8659_0195\\DalFacade\\DalFacade.csproj": {
+              "projectPath": "Z:\\B\\ליבשיץ לאה\\C#\\DotNet2025_8659_0195\\DalFacade\\DalFacade.csproj"
             },
-            "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\DalList\\DalList.csproj": {
-              "projectPath": "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\DalList\\DalList.csproj"
+            "Z:\\B\\ליבשיץ לאה\\C#\\DotNet2025_8659_0195\\DalList\\DalList.csproj": {
+              "projectPath": "Z:\\B\\ליבשיץ לאה\\C#\\DotNet2025_8659_0195\\DalList\\DalList.csproj"
             },
-            "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\Tools\\Tools.csproj": {
-              "projectPath": "Z:\\B\\ליבשיץ לאה\\C#\\DotNetProject\\Tools\\Tools.csproj"
+            "Z:\\B\\ליבשיץ לאה\\C#\\DotNet2025_8659_0195\\Tools\\Tools.csproj": {
+              "projectPath": "Z:\\B\\ליבשיץ לאה\\C#\\DotNet2025_8659_0195\\Tools\\Tools.csproj"
             }
           }
         }
