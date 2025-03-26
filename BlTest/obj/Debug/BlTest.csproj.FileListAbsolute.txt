@@ -24,3 +24,11 @@ Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\BlTest\obj\Debug\BlTest.sourcel
 Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\BlTest\obj\Debug\BlTest.dll
 Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\BlTest\obj\Debug\refint\BlTest.dll
 Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\BlTest\obj\Debug\BlTest.pdb
+Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\bin\BlTest.exe
+Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\bin\BlTest.deps.json
+Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\bin\BlTest.runtimeconfig.json
+Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\bin\BlTest.dll
+Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\bin\BlTest.pdb
+Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\BlTest\obj\Debug\BlTest.csproj.Up2Date
+Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\BlTest\obj\Debug\BlTest.genruntimeconfig.cache
+Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\BlTest\obj\Debug\ref\BlTest.dll

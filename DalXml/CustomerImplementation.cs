@@ -22,10 +22,10 @@ internal class CustomerImplementation : ICustomer
             DO.Tools.saveDataToXmlFile(customers,file_path, serializer);
             return item.Id;
         }
-        catch (Exception e)
+        catch (Exception )
         {
 
-            throw e;
+            throw ;
         }
     }
 

@@ -4,3 +4,11 @@ Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\DalXml\obj\Debug\DalXml.Assembl
 Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\DalXml\obj\Debug\DalXml.AssemblyInfo.cs
 Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\DalXml\obj\Debug\DalXml.csproj.CoreCompileInputs.cache
 Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\DalXml\obj\Debug\DalXml.sourcelink.json
+Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\bin\DalXml.deps.json
+Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\bin\DalXml.dll
+Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\bin\DalXml.pdb
+Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\DalXml\obj\Debug\DalXml.csproj.Up2Date
+Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\DalXml\obj\Debug\DalXml.dll
+Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\DalXml\obj\Debug\refint\DalXml.dll
+Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\DalXml\obj\Debug\DalXml.pdb
+Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\DalXml\obj\Debug\ref\DalXml.dll

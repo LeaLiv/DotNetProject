@@ -5,7 +5,7 @@ namespace DO
 {
     public static class Tools
     {
-        public static void loadDataFromXmlFile(List<T> items,string file_path, XmlSerializer serializer)
+        public static void loadDataFromXmlFile<T>(List<T> items,string file_path, XmlSerializer serializer)
         {
             try
             {
@@ -17,15 +17,15 @@ namespace DO
                     }
                 }
             }
-            catch (Exception e)
+            catch (Exception)
             {
 
-                throw e;
+                throw;
             }
            
         }
 
-        public static void saveDataToXmlFile(List<T> items, string file_path, XmlSerializer serializer)
+        public static void saveDataToXmlFile<T>(List<T> items, string file_path, XmlSerializer serializer)
         {
             try
             {
@@ -34,10 +34,10 @@ namespace DO
                     serializer.Serialize(fs, items);
                 }
             }
-            catch (Exception e)
+            catch (Exception)
             {
 
-                throw e;
+                throw ;
             }
 
         }

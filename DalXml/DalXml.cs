@@ -12,7 +12,7 @@ public class DalXml:IDal
 
     public ISale Sale => new SaleImplementation();
 
-    public static readonly DalXml instance => new DalXml();
+    static readonly DalXml instance = new DalXml();
     public static DalXml Instance { get{ return instance; } }
 
     private DalXml()

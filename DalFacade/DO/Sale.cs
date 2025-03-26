@@ -16,11 +16,8 @@ namespace DO
     {
         //public static int index = 100;
 
-        public Sale() : this(-1,-1)
+        public Sale() : this(-1,-1,0,0,true,null,null)
         { }
 
-        public Sale(int SaleId, int ProductId, int? MinAmount = 0, double? SalePrice = 0, bool? ClubSale = true, DateTime? StartSale = null, DateTime? FinishSale = null, object value = null) : this(SaleId, ProductId, MinAmount, SalePrice, ClubSale, StartSale, FinishSale)
-        {
-        }
     }
 }
