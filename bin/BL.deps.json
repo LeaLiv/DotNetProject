@@ -18,7 +18,7 @@
       "DalFacade/1.0.0": {
         "runtime": {
           "DalFacade.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -30,7 +30,7 @@
         },
         "runtime": {
           "DalList.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -38,7 +38,7 @@
       "Tools/1.0.0": {
         "runtime": {
           "Tools.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }

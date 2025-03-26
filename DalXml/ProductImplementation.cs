@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 using DalApi;
 using DO;
+using System.Xml.Serialization;
 
 namespace Dal
 {
@@ -18,19 +15,19 @@ namespace Dal
         {
             try
             {
-                item = item with { productId = Config.NextProductCode };
-                loadDataFromXmlFile(products, filePath, serializer);
+                item = item with { ProductId = Config.ProductNextCode };
+                DO.Tools.loadDataFromXmlFile(products, filePath, serializer);
 
                 Product existProduct = products
-                    .FirstOfDefault(products => productId == item.productId);
+                    .FirstOrDefault(product => product.ProductId == item.ProductId);
                 if (existProduct != null)
                 {
                     throw new DO.DalExceptionIdNotExist("Product already exist");
                 }
 
                 products.Add(item);
-                saveDataToXmlFile(products, filePath, serializer);
-                return item.productId;
+                DO.Tools.saveDataToXmlFile(products, filePath, serializer);
+                return item.ProductId;
             }
             catch (Exception ex)
             {
@@ -43,15 +40,15 @@ namespace Dal
         {
             try
             {
-                loadDataFromXmlFile(products, filePath, serializer);
+                DO.Tools.loadDataFromXmlFile(products, filePath, serializer);
 
-                Products existProduct = Products.FirstOfDefault(p => p.productId == id);
+                Product existProduct = products.FirstOrDefault(p => p.ProductId == id);
                 if (existProduct == null)
                 {
                     throw new DO.DalExceptionIdNotExist("Product not exist");
                 }
                 products.Remove(existProduct);
-                saveDataToXmlFile(products, filePath, serializer);
+                DO.Tools.saveDataToXmlFile(products, filePath, serializer);
             }
             catch (Exception ex)
             {
@@ -64,8 +61,8 @@ namespace Dal
         {
             try
             {
-                loadDataFromXmlFile(products, filePath, serializer);
-                Product existProduct = Products.FirstOrDefault(p => p.productId == id);
+                DO.Tools.loadDataFromXmlFile(products, filePath, serializer);
+                Product existProduct = products.FirstOrDefault(p => p.ProductId == id);
                 if (existProduct != null)
                 {
                     return existProduct;
@@ -85,8 +82,8 @@ namespace Dal
         {
             try
             {
-                loadDataFromXmlFile(products, filePath, serializer);
-                Product existProduct = Products.FirstOrDefault(filter);
+                DO.Tools.loadDataFromXmlFile(products, filePath, serializer);
+                Product existProduct = products.FirstOrDefault(filter);
                 if (existProduct != null)
                 {
                     return existProduct;
@@ -106,7 +103,7 @@ namespace Dal
         {
             try
             {
-                loadDataFromXmlFile(products, filePath, serializer);
+                DO.Tools.loadDataFromXmlFile(products, filePath, serializer);
 
                 var filterList = from p in products
                                  where filter(p)
@@ -124,7 +121,7 @@ namespace Dal
         {
             try
             {
-                Delete(item.productId);
+                Delete(item.ProductId);
                 Create(item);
             }
             catch (Exception ex)

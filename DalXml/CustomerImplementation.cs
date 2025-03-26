@@ -1,6 +1,7 @@
 ﻿
 using DalApi;
 using DO;
+using System.Xml.Serialization;
 
 namespace Dal;
 
@@ -13,13 +14,13 @@ internal class CustomerImplementation : ICustomer
     {
         try
         {
-            loadDataFromXmlFile(customers, file_path, serializer);
-            Customer existsCustomer = customers.FirstOrDefault(c => c.customerId == item.customerId);
+            DO.Tools.loadDataFromXmlFile(customers, file_path, serializer);
+            Customer existsCustomer = customers.FirstOrDefault(c => c.Id == item.Id);
             if (existsCustomer != null)
                 throw new DO.DalExceptionIdAllreadyExist("id already exists");
             customers.Add(item);
-            SaveDataTomlFile(customers, serializer);
-            return item.customerId;
+            DO.Tools.saveDataToXmlFile(customers,file_path, serializer);
+            return item.Id;
         }
         catch (Exception e)
         {
@@ -32,12 +33,12 @@ internal class CustomerImplementation : ICustomer
     {
         try
         {
-            loadDataFromXmlFile(customers, file_path, serializer);
-            Customer existsCustomer = customers.FirstOrDefault(c => c.customerId == item.customerId);
+            DO.Tools.loadDataFromXmlFile(customers, file_path, serializer);
+            Customer existsCustomer = customers.FirstOrDefault(c => c.Id == id);
             if (existsCustomer == null)
                 throw new DO.DalExceptionIdNotExist("id not exists");
             customers.Remove(existsCustomer);
-            SaveDataTomlFile(customers, serializer);
+            DO.Tools.saveDataToXmlFile(customers, file_path, serializer);
 
         }
         catch (Exception e)
@@ -51,8 +52,8 @@ internal class CustomerImplementation : ICustomer
     {
         try
         {
-            loadDataFromXmlFile(customers, file_path, serializer);
-            Customer existsCustomer = customers.FirstOrDefault(c => c.customerId == item.customerId);
+            DO.Tools.loadDataFromXmlFile(customers, file_path, serializer);
+            Customer existsCustomer = customers.FirstOrDefault(c => c.Id == id);
             if (existsCustomer != null)
                 return existsCustomer;
             throw new DO.DalExceptionIdNotExist("id not exists");
@@ -68,7 +69,7 @@ internal class CustomerImplementation : ICustomer
     {
         try
         {
-            loadDataFromXmlFile(customers, file_path, serializer);
+            DO.Tools.loadDataFromXmlFile(customers, file_path, serializer);
             Customer existsCustomer = customers.FirstOrDefault(filter);
             return existsCustomer;
         }
@@ -84,7 +85,7 @@ internal class CustomerImplementation : ICustomer
     {
         try
         {
-        loadDataFromXmlFile(customers, file_path, serializer);
+            DO.Tools.loadDataFromXmlFile(customers, file_path, serializer);
         if (filter == null)
             return customers;
         var filterList = from c in customers
@@ -104,7 +105,7 @@ internal class CustomerImplementation : ICustomer
     {
         try
         {
-            Delete(item.customerId);
+            Delete(item.Id);
             Create(item);
         }
         catch (Exception e)

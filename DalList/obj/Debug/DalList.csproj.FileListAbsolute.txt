@@ -39,3 +39,4 @@ Z:\B\ליבשיץ לאה\C#\DotNetProject\DalList\obj\Debug\DalList.dll
 Z:\B\ליבשיץ לאה\C#\DotNetProject\DalList\obj\Debug\refint\DalList.dll
 Z:\B\ליבשיץ לאה\C#\DotNetProject\DalList\obj\Debug\DalList.pdb
 Z:\B\ליבשיץ לאה\C#\DotNetProject\DalList\obj\Debug\ref\DalList.dll
+Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\DalList\obj\Debug\DalList.sourcelink.json

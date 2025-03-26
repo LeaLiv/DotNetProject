@@ -48,3 +48,4 @@ Z:\B\ליבשיץ לאה\C#\DotNetProject\DalTest\obj\Debug\refint\DalTest.dll
 Z:\B\ליבשיץ לאה\C#\DotNetProject\DalTest\obj\Debug\DalTest.pdb
 Z:\B\ליבשיץ לאה\C#\DotNetProject\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
 Z:\B\ליבשיץ לאה\C#\DotNetProject\DalTest\obj\Debug\ref\DalTest.dll
+Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\DalTest\obj\Debug\DalTest.sourcelink.json

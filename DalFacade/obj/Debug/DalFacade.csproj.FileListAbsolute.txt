@@ -33,3 +33,4 @@ Z:\B\ליבשיץ לאה\C#\DotNetProject\DalFacade\obj\Debug\DalFacade.dll
 Z:\B\ליבשיץ לאה\C#\DotNetProject\DalFacade\obj\Debug\refint\DalFacade.dll
 Z:\B\ליבשיץ לאה\C#\DotNetProject\DalFacade\obj\Debug\DalFacade.pdb
 Z:\B\ליבשיץ לאה\C#\DotNetProject\DalFacade\obj\Debug\ref\DalFacade.dll
+Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\DalFacade\obj\Debug\DalFacade.sourcelink.json

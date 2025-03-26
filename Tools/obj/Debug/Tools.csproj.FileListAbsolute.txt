@@ -24,3 +24,4 @@ Z:\B\ליבשיץ לאה\C#\DotNetProject\Tools\obj\Debug\Tools.dll
 Z:\B\ליבשיץ לאה\C#\DotNetProject\Tools\obj\Debug\refint\Tools.dll
 Z:\B\ליבשיץ לאה\C#\DotNetProject\Tools\obj\Debug\Tools.pdb
 Z:\B\ליבשיץ לאה\C#\DotNetProject\Tools\obj\Debug\ref\Tools.dll
+Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\Tools\obj\Debug\Tools.sourcelink.json

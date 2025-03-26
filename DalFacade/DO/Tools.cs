@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+using System.Xml.Serialization;
 
 namespace DO
 {
-    internal static class Tools
+    public static class Tools
     {
-        public static void loadDataFromXmlFile(List<T> items,string file path, XmlSerializer serializer)
+        public static void loadDataFromXmlFile(List<T> items,string file_path, XmlSerializer serializer)
         {
             try
             {
@@ -28,7 +25,7 @@ namespace DO
            
         }
 
-        public static void SaveDataTomlFile(List<T> items, string file path, XmlSerializer serializer)
+        public static void saveDataToXmlFile(List<T> items, string file_path, XmlSerializer serializer)
         {
             try
             {
