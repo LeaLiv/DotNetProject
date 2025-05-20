@@ -123,7 +123,7 @@ namespace UI
             try
             {
                 // שליפת כל המוצרים מהמלאי
-                List<Product?> products = _bl.Product.ReadAll();
+                List<Product> products = _bl.Product.ReadAll();
 
                 // ניקוי הרשימה לפני שמכניסים את החדשים
                 productsList.Items.Clear();
@@ -190,7 +190,8 @@ namespace UI
         {
             try
             {
-                List<Product?> products = _bl.Product.ReadAll();
+                //List<Product?> products =
+                    var products=_bl.Product.ReadAll();
                 productsList.Items.Clear();
 
                 foreach (var product in products)
