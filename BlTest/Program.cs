@@ -1,5 +1,6 @@
 ﻿
 
+using BlApi;
 using BO;
 using DalTest;
 using System.Reflection;
@@ -42,7 +43,7 @@ public class program
         BO.Order order = null;
         while (newOrder == "1")
         {
-            order = new Order(getId(), null, 0);
+            order = new Order(getId(), new List<ProductInOrder>(), 0);
             string newProduct = "1";
             while (newProduct == "1")
             {
@@ -51,16 +52,29 @@ public class program
                 Console.WriteLine("to add product insert 1, to end order insert 0");
                 newProduct = Console.ReadLine();
             }
-            Console.WriteLine($"{order.Price}");
+            Console.WriteLine($"{order.Price}");     
+            s_bl.Order.DoOrder(order);
             Console.WriteLine("to add order insert 1, to exit insert 0");
             newOrder = Console.ReadLine();
         }
+
 
     }
 
     static void Main(string[] args)
     {
-        DalTest.Initialization.Initialize();
+        //Console.WriteLine("To Initialize press 1");
+        //try
+        //{
+            //DalTest.Initialization.Initialize();
         test();
+        //}
+        //catch (Exception e)
+        //{
+
+        //    Console.WriteLine(e.StackTrace);
+        //    Console.WriteLine(e.Message);
+        //}
+
     }
 }

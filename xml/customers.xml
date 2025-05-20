@@ -1,3 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ArrayOfCustomer>
-</ArrayOfCustomer>                                                                                                                                                                                                                                                  
+<ArrayOfCustomer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Customer>
+    <Id>747</Id>
+    <Name>יוספה לוי</Name>
+    <Address>מרומי שדה 8</Address>
+    <PhoneNumber>058566666</PhoneNumber>
+  </Customer>
+  <Customer>
+    <Id>886</Id>
+    <Name>אברהם שכטר</Name>
+    <Address>מסילת יוסף 21</Address>
+    <PhoneNumber>053566666</PhoneNumber>
+  </Customer>
+  <Customer>
+    <Id>320</Id>
+    <Name>יונה לנג</Name>
+    <Address>נתיבות שלום 7</Address>
+    <PhoneNumber>052566666</PhoneNumber>
+  </Customer>
+  <Customer>
+    <Id>789</Id>
+    <Name>יהודית כהן</Name>
+    <Address>נתיבות המשפט 5</Address>
+    <PhoneNumber>0545555555</PhoneNumber>
+  </Customer>
+  <Customer>
+    <Id>663</Id>
+    <Name>שמעונה סגל</Name>
+    <Address> ירושלים 15</Address>
+    <PhoneNumber>054566666</PhoneNumber>
+  </Customer>
+</ArrayOfCustomer>

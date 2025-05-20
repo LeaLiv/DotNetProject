@@ -1,3 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ArrayOfProduct>
+<ArrayOfProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Product>
+    <ProductId>0</ProductId>
+    <ProductName>מכנס דגמח</ProductName>
+    <category>בנים</category>
+    <Price>100</Price>
+    <QuantityInStock>10</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>115</ProductId>
+    <ProductName>אוברול</ProductName>
+    <category>תינוקות</category>
+    <Price>80</Price>
+    <QuantityInStock>70</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>116</ProductId>
+    <ProductName>חצאית קפלים</ProductName>
+    <category>בנות</category>
+    <Price>120</Price>
+    <QuantityInStock>50</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>117</ProductId>
+    <ProductName>חליפה 2 חלקים</ProductName>
+    <category>אלגנט</category>
+    <Price>250</Price>
+    <QuantityInStock>25</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>123</ProductId>
+    <ProductName>סרט לשיער</ProductName>
+    <category>אקססוריז</category>
+    <Price>14.9</Price>
+    <QuantityInStock>25</QuantityInStock>
+  </Product>
 </ArrayOfProduct>

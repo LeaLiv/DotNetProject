@@ -32,7 +32,7 @@ public class OrderImplementation : IOrder
             {
                 if (quantity <= product.QuantityInStock)
                 {
-                    productInOrder = new ProductInOrder { QuantityInOrder = quantity, BasePrice = product.Price, ProductId = productId, ProductName = product.ProductName, };
+                    productInOrder = new ProductInOrder { QuantityInOrder = quantity, BasePrice = product.Price, ProductId = productId, ProductName = product.ProductName,SalesInProduct=new List<SaleInProduct>() };
                     order.ProductsInOrder.Add(productInOrder);
                 }
 

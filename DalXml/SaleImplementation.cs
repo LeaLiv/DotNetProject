@@ -25,6 +25,7 @@ internal class SaleImplementation : ISale
     {
         try
         {
+            saleXml = XElement.Load(filePath);
             if (File.Exists(filePath))
             {
                 item = item with { SaleId = Config.SaleNextCode };
@@ -39,6 +40,7 @@ internal class SaleImplementation : ISale
                     ));
 
             }
+            saleXml.Save(filePath);
             return item.SaleId;
         }
         catch(Exception e) { throw e; }
@@ -46,13 +48,16 @@ internal class SaleImplementation : ISale
 
     public void Delete(int id)
     {
+        saleXml = XElement.Load(filePath);
         try
         {
             if (File.Exists(filePath))
             {
-                if(Read(id)!=null)
+                if (Read(id) != null) { 
                     saleXml.Elements().Single(s=>s.Element(SALE_ID).Value.Equals(id)).Remove();
-            }
+                    saleXml.Save(filePath);
+
+            }}
         }
         catch (Exception e)
         {
@@ -154,6 +159,11 @@ internal class SaleImplementation : ISale
                     sale.Element(CLUBSALE).SetValue(item.ClubSale);
                     sale.Element(START_SALE).SetValue(item.StartSale);
                     sale.Element(FINISH_SALE).SetValue(item.FinishSale);
+                    saleXml.Save(filePath);
+                }
+                else
+                {
+                    throw new DalExceptionIdNotExist("sale not exist");
                 }
             }
         }

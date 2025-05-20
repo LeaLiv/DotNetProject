@@ -9,19 +9,19 @@ namespace DalTest;
         private static void createProducts()
         {
             s_dal.Product.Create(new Product(0, "סרט לשיער", Category.אקססוריז, 14.9, 30));
-            s_dal.Product.Create(new Product(0, "מכנס דגמח", Category.בנים, 100, 10));
-            s_dal.Product.Create(new Product(0, "אוברול", Category.תינוקות, 80, 70));
-            s_dal.Product.Create(new Product(0, "חצאית קפלים", Category.בנות, 120, 50));
-            s_dal.Product.Create(new Product(0, "חליפה 2 חלקים", Category.אלגנט, 250, 25));
+            //s_dal.Product.Create(new Product(0, "מכנס דגמח", Category.בנים, 100, 10));
+            //s_dal.Product.Create(new Product(0, "אוברול", Category.תינוקות, 80, 70));
+            //s_dal.Product.Create(new Product(0, "חצאית קפלים", Category.בנות, 120, 50));
+            //s_dal.Product.Create(new Product(0, "חליפה 2 חלקים", Category.אלגנט, 250, 25));
         }
 
         private static void createCustomers()
         {
-            s_dal.Customer.Create(new Customer(789, "יהודית כהן", "נתיבות המשפט 5", "0545555555"));
-            s_dal.Customer.Create(new Customer(663, "שמעונה סגל", " ירושלים 15", "054566666"));
-            s_dal.Customer.Create(new Customer(747, "יוספה לוי", "מרומי שדה 8", "058566666"));
-            s_dal.Customer.Create(new Customer(886, "אברהם שכטר", "מסילת יוסף 21", "053566666"));
-            s_dal.Customer.Create(new Customer(320, "יונה לנג", "נתיבות שלום 7", "052566666"));
+        s_dal.Customer.Create(new Customer(789, "יהודית כהן", "נתיבות המשפט 5", "0545555555"));
+        s_dal.Customer.Create(new Customer(663, "שמעונה סגל", " ירושלים 15", "054566666"));
+        //s_dal.Customer.Create(new Customer(747, "יוספה לוי", "מרומי שדה 8", "058566666"));
+        //    s_dal.Customer.Create(new Customer(886, "אברהם שכטר", "מסילת יוסף 21", "053566666"));
+        //    s_dal.Customer.Create(new Customer(320, "יונה לנג", "נתיבות שלום 7", "052566666"));
         }
 
         private static void createSales()
@@ -35,9 +35,9 @@ namespace DalTest;
     public static void Initialize()
     {
         s_dal = Factory.Get;
-        createCustomers();
+        //createCustomers();
         createProducts();
-        createSales();
+        //createSales();
 
     }
 

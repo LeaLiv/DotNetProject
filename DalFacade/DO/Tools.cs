@@ -5,23 +5,25 @@ namespace DO
 {
     public static class Tools
     {
-        public static void loadDataFromXmlFile<T>(List<T> items,string file_path, XmlSerializer serializer)
+        public static List<T> loadDataFromXmlFile<T>(List<T> items,string file_path, XmlSerializer serializer)
         {
             try
             {
                 if (File.Exists(file_path))
                 {
-                    using (FileStream fs = new FileStream(file_path, FileMode.Open, FileAccess.ReadWrite))
+                    using (FileStream fs = new FileStream(file_path, FileMode.OpenOrCreate, FileAccess.ReadWrite))
                     {
                         items = (List<T>)serializer.Deserialize(fs);
                     }
+                    return items;
                 }
             }
-            catch (Exception)
+            catch (Exception e)
             {
 
-                throw;
+                throw e;
             }
+            return new List<T>();
            
         }
 
@@ -29,7 +31,7 @@ namespace DO
         {
             try
             {
-                using (FileStream fs = new FileStream(file_path, FileMode.Open))
+                using (FileStream fs = new FileStream(file_path, FileMode.OpenOrCreate))
                 {
                     serializer.Serialize(fs, items);
                 }

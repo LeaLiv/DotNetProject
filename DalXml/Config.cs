@@ -7,7 +7,7 @@ namespace Dal;
 
 static internal class Config
 {
-    private static string fileName = "../xml/data-config";
+    private static string fileName = "../xml/data-config.xml";
 
     public static int SaleNextCode {
         get 

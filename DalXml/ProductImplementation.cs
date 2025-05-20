@@ -15,14 +15,15 @@ namespace Dal
         {
             try
             {
+                //List<Product> products = new List<Product>();
                 item = item with { ProductId = Config.ProductNextCode };
-                DO.Tools.loadDataFromXmlFile(products, filePath, serializer);
+                products = DO.Tools.loadDataFromXmlFile(products, filePath, serializer);
 
                 Product existProduct = products
-                    .FirstOrDefault(product => product.ProductId == item.ProductId);
+                    .FirstOrDefault(product => product.ProductName.Equals(item.ProductName));
                 if (existProduct != null)
                 {
-                    throw new DO.DalExceptionIdNotExist("Product already exist");
+                    throw new DO.DalExceptionIdAllreadyExist("Product already exist");
                 }
 
                 products.Add(item);
@@ -38,9 +39,10 @@ namespace Dal
 
         public void Delete(int id)
         {
+            //List<Product> products = new List<Product>();
             try
             {
-                DO.Tools.loadDataFromXmlFile(products, filePath, serializer);
+                products = DO.Tools.loadDataFromXmlFile(products, filePath, serializer);
 
                 Product existProduct = products.FirstOrDefault(p => p.ProductId == id);
                 if (existProduct == null)
@@ -59,9 +61,10 @@ namespace Dal
 
         public Product? Read(int id)
         {
+            //List<Product> products = new List<Product>();
             try
             {
-                DO.Tools.loadDataFromXmlFile(products, filePath, serializer);
+                products=DO.Tools.loadDataFromXmlFile(products, filePath, serializer);
                 Product existProduct = products.FirstOrDefault(p => p.ProductId == id);
                 if (existProduct != null)
                 {
@@ -80,9 +83,10 @@ namespace Dal
 
         public Product? Read(Func<Product, bool> filter)
         {
+            //List<Product> products = new List<Product>();
             try
             {
-                DO.Tools.loadDataFromXmlFile(products, filePath, serializer);
+                products = DO.Tools.loadDataFromXmlFile(products, filePath, serializer);
                 Product existProduct = products.FirstOrDefault(filter);
                 if (existProduct != null)
                 {
@@ -101,10 +105,13 @@ namespace Dal
 
         public List<Product?> ReadAll(Func<Product, bool>? filter = null)
         {
+            //List<Product> products = new List<Product>();
             try
             {
-                DO.Tools.loadDataFromXmlFile(products, filePath, serializer);
-
+                products = DO.Tools.loadDataFromXmlFile(products, filePath, serializer);
+                Console.WriteLine(products);
+                if (filter == null)
+                    return products;
                 var filterList = from p in products
                                  where filter(p)
                                  select p;
@@ -119,10 +126,22 @@ namespace Dal
 
         public void Update(Product item)
         {
+            if(item==null)
+                throw new DalExceptionNullReference("item is null");
             try
             {
-                Delete(item.ProductId);
-                Create(item);
+                products = DO.Tools.loadDataFromXmlFile(products, filePath, serializer);
+                Product existProduct = products
+                   .FirstOrDefault(product => product.ProductName.Equals(item.ProductName));
+                if (existProduct == null)
+                {
+                    throw new DO.DalExceptionIdNotExist("Product already exist");
+                }
+                products.Remove(existProduct);
+                products.Add(item);
+                DO.Tools.saveDataToXmlFile(products, filePath, serializer);
+                //Delete(item.ProductId);
+                //Create(item);
             }
             catch (Exception ex)
             {

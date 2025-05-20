@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <config>
-	<SaleNextCode>1000</SaleNextCode>
-	<ProductNextCode>100</ProductNextCode>
+  <SaleNextCode>1036</SaleNextCode>
+  <ProductNextCode>124</ProductNextCode>
 </config>
-
