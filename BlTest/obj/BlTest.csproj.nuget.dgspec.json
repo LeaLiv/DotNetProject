@@ -111,6 +111,9 @@
               },
               "Z:\\B\\ליבשיץ לאה\\C#\\DotNet2025_8659_0195\\DalList\\DalList.csproj": {
                 "projectPath": "Z:\\B\\ליבשיץ לאה\\C#\\DotNet2025_8659_0195\\DalList\\DalList.csproj"
+              },
+              "Z:\\B\\ליבשיץ לאה\\C#\\DotNet2025_8659_0195\\DalXml\\DalXml.csproj": {
+                "projectPath": "Z:\\B\\ליבשיץ לאה\\C#\\DotNet2025_8659_0195\\DalXml\\DalXml.csproj"
               }
             }
           }
@@ -397,9 +400,6 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "Z:\\B\\ליבשיץ לאה\\C#\\DotNet2025_8659_0195\\BL\\BL.csproj": {
-                "projectPath": "Z:\\B\\ליבשיץ לאה\\C#\\DotNet2025_8659_0195\\BL\\BL.csproj"
-              },
               "Z:\\B\\ליבשיץ לאה\\C#\\DotNet2025_8659_0195\\DalFacade\\DalFacade.csproj": {
                 "projectPath": "Z:\\B\\ליבשיץ לאה\\C#\\DotNet2025_8659_0195\\DalFacade\\DalFacade.csproj"
               }

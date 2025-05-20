@@ -188,10 +188,10 @@ namespace UI
 
         private void RefreshProductList()
         {
+            
+                List<Product?> products = _bl.Product.ReadAll();
             try
             {
-                //List<Product?> products =
-                    var products=_bl.Product.ReadAll();
                 productsList.Items.Clear();
 
                 foreach (var product in products)
