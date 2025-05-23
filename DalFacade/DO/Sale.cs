@@ -1,6 +1,8 @@
 ﻿
 
 
+using DO;
+
 namespace DO
 {
     public record Sale
@@ -14,7 +16,8 @@ namespace DO
     {
         //public static int index = 100;
 
-        public Sale() : this(-1,-1)
+        public Sale() : this(-1,-1,0,0,true,null,null)
         { }
+
     }
 }

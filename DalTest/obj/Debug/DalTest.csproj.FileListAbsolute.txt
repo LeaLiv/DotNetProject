@@ -1,50 +1,17 @@
-Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
-Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
-Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
-Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
-Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
-Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\bin\DalTest.exe
-Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\bin\DalTest.deps.json
-Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\bin\DalTest.runtimeconfig.json
-Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\bin\DalTest.dll
-Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\bin\DalTest.pdb
-Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\DalTest\obj\Debug\DalTest.dll
-Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\DalTest\obj\Debug\refint\DalTest.dll
-Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\DalTest\obj\Debug\DalTest.pdb
-Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
-Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\DalTest\obj\Debug\ref\DalTest.dll
-Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\DalTest\obj\Debug\DalTest.csproj.Up2Date
-C:\Lea\DotNetProject\bin\DalTest.exe
-C:\Lea\DotNetProject\bin\DalTest.deps.json
-C:\Lea\DotNetProject\bin\DalTest.runtimeconfig.json
-C:\Lea\DotNetProject\bin\DalTest.dll
-C:\Lea\DotNetProject\bin\DalTest.pdb
-C:\Lea\DotNetProject\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
-C:\Lea\DotNetProject\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
-C:\Lea\DotNetProject\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
-C:\Lea\DotNetProject\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
-C:\Lea\DotNetProject\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
-C:\Lea\DotNetProject\DalTest\obj\Debug\DalTest.sourcelink.json
-C:\Lea\DotNetProject\DalTest\obj\Debug\DalTest.csproj.Up2Date
-C:\Lea\DotNetProject\DalTest\obj\Debug\DalTest.dll
-C:\Lea\DotNetProject\DalTest\obj\Debug\refint\DalTest.dll
-C:\Lea\DotNetProject\DalTest\obj\Debug\DalTest.pdb
-C:\Lea\DotNetProject\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
-C:\Lea\DotNetProject\DalTest\obj\Debug\ref\DalTest.dll
-Z:\B\ליבשיץ לאה\C#\DotNetProject\bin\DalTest.exe
-Z:\B\ליבשיץ לאה\C#\DotNetProject\bin\DalTest.deps.json
-Z:\B\ליבשיץ לאה\C#\DotNetProject\bin\DalTest.runtimeconfig.json
-Z:\B\ליבשיץ לאה\C#\DotNetProject\bin\DalTest.dll
-Z:\B\ליבשיץ לאה\C#\DotNetProject\bin\DalTest.pdb
-Z:\B\ליבשיץ לאה\C#\DotNetProject\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
-Z:\B\ליבשיץ לאה\C#\DotNetProject\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
-Z:\B\ליבשיץ לאה\C#\DotNetProject\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
-Z:\B\ליבשיץ לאה\C#\DotNetProject\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
-Z:\B\ליבשיץ לאה\C#\DotNetProject\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
-Z:\B\ליבשיץ לאה\C#\DotNetProject\DalTest\obj\Debug\DalTest.sourcelink.json
-Z:\B\ליבשיץ לאה\C#\DotNetProject\DalTest\obj\Debug\DalTest.csproj.Up2Date
-Z:\B\ליבשיץ לאה\C#\DotNetProject\DalTest\obj\Debug\DalTest.dll
-Z:\B\ליבשיץ לאה\C#\DotNetProject\DalTest\obj\Debug\refint\DalTest.dll
-Z:\B\ליבשיץ לאה\C#\DotNetProject\DalTest\obj\Debug\DalTest.pdb
-Z:\B\ליבשיץ לאה\C#\DotNetProject\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
-Z:\B\ליבשיץ לאה\C#\DotNetProject\DalTest\obj\Debug\ref\DalTest.dll
+C:\Lea\DotNetProject-master\bin\DalTest.exe
+C:\Lea\DotNetProject-master\bin\DalTest.deps.json
+C:\Lea\DotNetProject-master\bin\DalTest.runtimeconfig.json
+C:\Lea\DotNetProject-master\bin\DalTest.dll
+C:\Lea\DotNetProject-master\bin\DalTest.pdb
+C:\Lea\DotNetProject-master\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+C:\Lea\DotNetProject-master\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Lea\DotNetProject-master\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+C:\Lea\DotNetProject-master\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+C:\Lea\DotNetProject-master\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+C:\Lea\DotNetProject-master\DalTest\obj\Debug\DalTest.sourcelink.json
+C:\Lea\DotNetProject-master\DalTest\obj\Debug\DalTest.csproj.Up2Date
+C:\Lea\DotNetProject-master\DalTest\obj\Debug\DalTest.dll
+C:\Lea\DotNetProject-master\DalTest\obj\Debug\refint\DalTest.dll
+C:\Lea\DotNetProject-master\DalTest\obj\Debug\DalTest.pdb
+C:\Lea\DotNetProject-master\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
+C:\Lea\DotNetProject-master\DalTest\obj\Debug\ref\DalTest.dll

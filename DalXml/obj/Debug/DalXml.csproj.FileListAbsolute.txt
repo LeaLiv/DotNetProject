@@ -1,0 +1,14 @@
+C:\Lea\DotNetProject-master\bin\DalXml.deps.json
+C:\Lea\DotNetProject-master\bin\DalXml.dll
+C:\Lea\DotNetProject-master\bin\DalXml.pdb
+C:\Lea\DotNetProject-master\DalXml\obj\Debug\DalXml.csproj.AssemblyReference.cache
+C:\Lea\DotNetProject-master\DalXml\obj\Debug\DalXml.GeneratedMSBuildEditorConfig.editorconfig
+C:\Lea\DotNetProject-master\DalXml\obj\Debug\DalXml.AssemblyInfoInputs.cache
+C:\Lea\DotNetProject-master\DalXml\obj\Debug\DalXml.AssemblyInfo.cs
+C:\Lea\DotNetProject-master\DalXml\obj\Debug\DalXml.csproj.CoreCompileInputs.cache
+C:\Lea\DotNetProject-master\DalXml\obj\Debug\DalXml.sourcelink.json
+C:\Lea\DotNetProject-master\DalXml\obj\Debug\DalXml.csproj.Up2Date
+C:\Lea\DotNetProject-master\DalXml\obj\Debug\DalXml.dll
+C:\Lea\DotNetProject-master\DalXml\obj\Debug\refint\DalXml.dll
+C:\Lea\DotNetProject-master\DalXml\obj\Debug\DalXml.pdb
+C:\Lea\DotNetProject-master\DalXml\obj\Debug\ref\DalXml.dll

@@ -1,35 +1,12 @@
-Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\bin\Tools.deps.json
-Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\bin\Tools.dll
-Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\bin\Tools.pdb
-Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
-Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
-Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\Tools\obj\Debug\Tools.AssemblyInfo.cs
-Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
-Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\Tools\obj\Debug\Tools.dll
-Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\Tools\obj\Debug\refint\Tools.dll
-Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\Tools\obj\Debug\Tools.pdb
-Z:\B\ליבשיץ לאה\C#\DotNet2025_8659_0195\Tools\obj\Debug\ref\Tools.dll
-C:\Lea\DotNetProject\Tools\obj\Debug\Tools.dll
-C:\Lea\DotNetProject\Tools\obj\Debug\refint\Tools.dll
-C:\Lea\DotNetProject\Tools\obj\Debug\Tools.pdb
-Z:\B\ליבשיץ לאה\C#\DotNetProject\bin\Tools.deps.json
-Z:\B\ליבשיץ לאה\C#\DotNetProject\bin\Tools.dll
-Z:\B\ליבשיץ לאה\C#\DotNetProject\bin\Tools.pdb
-Z:\B\ליבשיץ לאה\C#\DotNetProject\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
-Z:\B\ליבשיץ לאה\C#\DotNetProject\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
-Z:\B\ליבשיץ לאה\C#\DotNetProject\Tools\obj\Debug\Tools.AssemblyInfo.cs
-Z:\B\ליבשיץ לאה\C#\DotNetProject\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
-Z:\B\ליבשיץ לאה\C#\DotNetProject\Tools\obj\Debug\Tools.sourcelink.json
-Z:\B\ליבשיץ לאה\C#\DotNetProject\Tools\obj\Debug\Tools.dll
-Z:\B\ליבשיץ לאה\C#\DotNetProject\Tools\obj\Debug\refint\Tools.dll
-Z:\B\ליבשיץ לאה\C#\DotNetProject\Tools\obj\Debug\Tools.pdb
-Z:\B\ליבשיץ לאה\C#\DotNetProject\Tools\obj\Debug\ref\Tools.dll
-C:\Lea\DotNetProject\bin\Tools.deps.json
-C:\Lea\DotNetProject\bin\Tools.dll
-C:\Lea\DotNetProject\bin\Tools.pdb
-C:\Lea\DotNetProject\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
-C:\Lea\DotNetProject\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
-C:\Lea\DotNetProject\Tools\obj\Debug\Tools.AssemblyInfo.cs
-C:\Lea\DotNetProject\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
-C:\Lea\DotNetProject\Tools\obj\Debug\Tools.sourcelink.json
-C:\Lea\DotNetProject\Tools\obj\Debug\ref\Tools.dll
+C:\Lea\DotNetProject-master\bin\Tools.deps.json
+C:\Lea\DotNetProject-master\bin\Tools.dll
+C:\Lea\DotNetProject-master\bin\Tools.pdb
+C:\Lea\DotNetProject-master\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
+C:\Lea\DotNetProject-master\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
+C:\Lea\DotNetProject-master\Tools\obj\Debug\Tools.AssemblyInfo.cs
+C:\Lea\DotNetProject-master\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+C:\Lea\DotNetProject-master\Tools\obj\Debug\Tools.sourcelink.json
+C:\Lea\DotNetProject-master\Tools\obj\Debug\Tools.dll
+C:\Lea\DotNetProject-master\Tools\obj\Debug\refint\Tools.dll
+C:\Lea\DotNetProject-master\Tools\obj\Debug\Tools.pdb
+C:\Lea\DotNetProject-master\Tools\obj\Debug\ref\Tools.dll

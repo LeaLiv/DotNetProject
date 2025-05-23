@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCustomer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Customer>
+    <Id>663</Id>
+    <Name>שמעונה סגל</Name>
+    <Address> ירושלים 15</Address>
+    <PhoneNumber>054566666</PhoneNumber>
+  </Customer>
+  <Customer>
+    <Id>886</Id>
+    <Name>אברהם שכטר </Name>
+    <Address> מסילת יוסף 15</Address>
+    <PhoneNumber>053566662</PhoneNumber>
+  </Customer>
+  <Customer>
+    <Id>1011</Id>
+    <Name>משה חיים וייס</Name>
+    <Address>רחוב הרב שך 12, בני ברק</Address>
+    <PhoneNumber>0527123456</PhoneNumber>
+  </Customer>
+  <Customer>
+    <Id>1012</Id>
+    <Name>יעקב אריה ליפשיץ</Name>
+    <Address>רחוב חזון איש 34, מודיעין עילית</Address>
+    <PhoneNumber>0537654321</PhoneNumber>
+  </Customer>
+  <Customer>
+    <Id>1013</Id>
+    <Name>שרה רבקה בלוי</Name>
+    <Address>רחוב הרב קוק 7, ירושלים</Address>
+    <PhoneNumber>0549876543</PhoneNumber>
+  </Customer>
+  <Customer>
+    <Id>1014</Id>
+    <Name>שמואל דוד כהן</Name>
+    <Address>רחוב החוזה מלובלין 22, אלעד</Address>
+    <PhoneNumber>0501234567</PhoneNumber>
+  </Customer>
+  <Customer>
+    <Id>456789</Id>
+    <Name>שרה</Name>
+    <Address>בבית</Address>
+    <PhoneNumber>054846789</PhoneNumber>
+  </Customer>
+  <Customer>
+    <Id>1015</Id>
+    <Name>לאה גיטל רוזנברג</Name>
+    <Address>עזרת תורה 5, ביתר עילית</Address>
+    <PhoneNumber>0553344556</PhoneNumber>
+  </Customer>
+</ArrayOfCustomer>

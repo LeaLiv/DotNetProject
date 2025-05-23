@@ -18,6 +18,14 @@ namespace DO
         }
     }
     [Serializable]
+    public class DalExceptionNullReference : Exception
+    {
+        public DalExceptionNullReference(string error) : base(error)
+        {
+
+        }
+    }
+    [Serializable]
     public class DalException : Exception
     {
         public DalException(string error) : base(error)

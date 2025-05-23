@@ -32,7 +32,7 @@ public class OrderImplementation : IOrder
             {
                 if (quantity <= product.QuantityInStock)
                 {
-                    productInOrder = new ProductInOrder { QuantityInOrder = quantity, BasePrice = product.Price, ProductId = productId, ProductName = product.ProductName, };
+                    productInOrder = new ProductInOrder { QuantityInOrder = quantity, BasePrice = product.Price, ProductId = productId, ProductName = product.ProductName,SalesInProduct=new List<SaleInProduct>() };
                     order.ProductsInOrder.Add(productInOrder);
                 }
 
@@ -50,12 +50,14 @@ public class OrderImplementation : IOrder
 
     public void CalcTotalPrice(Order order)
     {
+        order.Price = 0;
         order.ProductsInOrder.ForEach(p => order.Price += p.FinalPrice);
     }
 
 
     public void CalcTotalPriceForProduct(ProductInOrder productInOrder)
     {
+        productInOrder.FinalPrice = 0;
         int count = productInOrder.QuantityInOrder;
         List<SaleInProduct> saleInProducts = SearchSaleForProduct(productInOrder);
         foreach (var item in saleInProducts)

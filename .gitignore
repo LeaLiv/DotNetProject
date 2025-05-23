@@ -1,0 +1,46 @@
+.vs/
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Auto-generated files
+Generated_Code/
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# .NET Core
+project.assets.json
+project.nuget.cache
+*.deps.json
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+
+# Publish output
+publish/
+
+# Test results
+TestResults/
