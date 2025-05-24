@@ -459,6 +459,8 @@ namespace UI
             filterCategory.Size = new Size(133, 23);
             filterCategory.TabIndex = 7;
             filterCategory.SelectedIndexChanged += filterCategory_SelectedIndexChanged;
+            //filterCategory.SelectedIndexChanged += filterCategory_SelectedIndexChanged;
+
             // 
             // errorProvider1
             // 

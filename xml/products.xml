@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Product>
+    <ProductId>117</ProductId>
+    <ProductName>חליפה 2 חלקים</ProductName>
+    <category>בנים</category>
+    <Price>260</Price>
+    <QuantityInStock>25</QuantityInStock>
+  </Product>
+  <Product>
     <ProductId>0</ProductId>
     <ProductName>מכנס דגמח</ProductName>
     <category>בנים</category>
-    <Price>100</Price>
+    <Price>110</Price>
     <QuantityInStock>10</QuantityInStock>
   </Product>
   <Product>
@@ -12,34 +19,27 @@
     <ProductName>סרט לשיער</ProductName>
     <category>אקססוריז</category>
     <Price>14.9</Price>
-    <QuantityInStock>25</QuantityInStock>
+    <QuantityInStock>24</QuantityInStock>
   </Product>
   <Product>
     <ProductId>115</ProductId>
     <ProductName>אוברול</ProductName>
     <category>תינוקות</category>
     <Price>80</Price>
-    <QuantityInStock>64</QuantityInStock>
+    <QuantityInStock>63</QuantityInStock>
   </Product>
   <Product>
     <ProductId>116</ProductId>
     <ProductName>חצאית קפלים</ProductName>
     <category>בנות</category>
     <Price>120</Price>
-    <QuantityInStock>48</QuantityInStock>
+    <QuantityInStock>46</QuantityInStock>
   </Product>
   <Product>
     <ProductId>124</ProductId>
     <ProductName>מכנס</ProductName>
     <category>בנים</category>
     <Price>78</Price>
-    <QuantityInStock>20</QuantityInStock>
-  </Product>
-  <Product>
-    <ProductId>117</ProductId>
-    <ProductName>חליפה 2 חלקים</ProductName>
-	  <category>בנים</category>
-    <Price>260</Price>
-    <QuantityInStock>25</QuantityInStock>
+    <QuantityInStock>19</QuantityInStock>
   </Product>
 </ArrayOfProduct>

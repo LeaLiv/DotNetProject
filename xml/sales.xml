@@ -11,7 +11,7 @@
   </sale>
   <sale>
     <SaleId>1027</SaleId>
-    <ProductId>101</ProductId>
+    <ProductId>0</ProductId>
     <MinAmount>1</MinAmount>
     <SalePrice>90</SalePrice>
     <ClubSale>false</ClubSale>

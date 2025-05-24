@@ -508,6 +508,8 @@
             filterByCodeSale.Name = "filterByCodeSale";
             filterByCodeSale.Size = new Size(110, 23);
             filterByCodeSale.TabIndex = 7;
+            filterByCodeSale.TextChanged += new System.EventHandler(this.filterByCodeSale_TextChanged);
+
             // 
             // label11
             // 

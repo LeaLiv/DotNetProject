@@ -105,6 +105,39 @@ namespace UI
             lastSaleDateInput.Value = DateTime.Now;
 
         }
+        private void filterByCodeSale_TextChanged(object sender, EventArgs e)
+        {
+            string saleToSearch = filterByCodeSale.Text.Trim();
+            try
+            {
+                List<Sale> sales = _bl.Sale.ReadAll();
+                var filtered = sales.Where(s => s.SaleId.ToString().Contains(saleToSearch)).ToList();
+                salesListBox.Items.Clear();
+                if (filtered.Count == 0 && !string.IsNullOrEmpty(saleToSearch))
+                    salesListBox.Items.Add("לא נמצאו מבצעים.");
+                else
+                {
+                    foreach (var sale in filtered)
+                    {
+                        if (sale != null)
+                        {
+                            var saleDetails = sale.ToString() + "\n----------------------------";
+                            // פיצול למיתרים ואז הוספה לכל פריט ברשימה
+                            var saleLines = saleDetails.Split("\n");
+                            foreach (var line in saleLines)
+                            {
+                                salesListBox.Items.Add(line);
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
 
         private void RefreshSalesList()
         {

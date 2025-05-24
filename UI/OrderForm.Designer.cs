@@ -38,7 +38,7 @@
             label2 = new Label();
             deleteProduct = new TabPage();
             deleteFromOrder = new Button();
-            codeProductInputTםDelete = new TextBox();
+            codeProductInputTDelete = new TextBox();
             nameProductLable = new Label();
             endOrder = new Button();
             sumOrder = new TextBox();
@@ -139,7 +139,7 @@
             // deleteProduct
             // 
             deleteProduct.Controls.Add(deleteFromOrder);
-            deleteProduct.Controls.Add(codeProductInputTםDelete);
+            deleteProduct.Controls.Add(codeProductInputTDelete);
             deleteProduct.Controls.Add(nameProductLable);
             deleteProduct.Location = new Point(4, 24);
             deleteProduct.Name = "deleteProduct";
@@ -159,13 +159,13 @@
             deleteFromOrder.UseVisualStyleBackColor = true;
             deleteFromOrder.Click += deleteFromOrder_Click_1;
             // 
-            // codeProductInputTםDelete
+            // codeProductInputTDelete
             // 
-            codeProductInputTםDelete.Location = new Point(108, 49);
-            codeProductInputTםDelete.Margin = new Padding(3, 2, 3, 2);
-            codeProductInputTםDelete.Name = "codeProductInputTםDelete";
-            codeProductInputTםDelete.Size = new Size(110, 23);
-            codeProductInputTםDelete.TabIndex = 11;
+            codeProductInputTDelete.Location = new Point(108, 49);
+            codeProductInputTDelete.Margin = new Padding(3, 2, 3, 2);
+            codeProductInputTDelete.Name = "codeProductInputTDelete";
+            codeProductInputTDelete.Size = new Size(110, 23);
+            codeProductInputTDelete.TabIndex = 11;
             // 
             // nameProductLable
             // 
@@ -270,7 +270,7 @@
         private TextBox codeProductToAdd;
         private Label label2;
         private Button deleteFromOrder;
-        private TextBox codeProductInputTםDelete;
+        private TextBox codeProductInputTDelete;
         private Label nameProductLable;
         private Button endOrder;
         private TextBox sumOrder;

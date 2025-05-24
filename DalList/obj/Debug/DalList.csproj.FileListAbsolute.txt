@@ -12,3 +12,17 @@ C:\Lea\DotNetProject-master\DalList\obj\Debug\DalList.dll
 C:\Lea\DotNetProject-master\DalList\obj\Debug\refint\DalList.dll
 C:\Lea\DotNetProject-master\DalList\obj\Debug\DalList.pdb
 C:\Lea\DotNetProject-master\DalList\obj\Debug\ref\DalList.dll
+C:\Lea\DotNetProject\bin\DalList.deps.json
+C:\Lea\DotNetProject\bin\DalList.dll
+C:\Lea\DotNetProject\bin\DalList.pdb
+C:\Lea\DotNetProject\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+C:\Lea\DotNetProject\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Lea\DotNetProject\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+C:\Lea\DotNetProject\DalList\obj\Debug\DalList.AssemblyInfo.cs
+C:\Lea\DotNetProject\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+C:\Lea\DotNetProject\DalList\obj\Debug\DalList.sourcelink.json
+C:\Lea\DotNetProject\DalList\obj\Debug\DalList.csproj.Up2Date
+C:\Lea\DotNetProject\DalList\obj\Debug\DalList.dll
+C:\Lea\DotNetProject\DalList\obj\Debug\refint\DalList.dll
+C:\Lea\DotNetProject\DalList\obj\Debug\DalList.pdb
+C:\Lea\DotNetProject\DalList\obj\Debug\ref\DalList.dll

@@ -14,9 +14,10 @@ public class Product
     {
         ProductId = productId;
         ProductName = productName;
-        category = category;
+        this.category = category;
         Price = price;
         QuantityInStock = quantityInStock;
+        SalesInProduct=new List<SaleInProduct>();
     }
 
 

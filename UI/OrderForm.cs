@@ -34,7 +34,16 @@ namespace UI
             try
             {
                 RefreshProductList();
-                Customer customer = _bl.Customer.Read(CustomerId);
+                Customer customer = null;
+                try
+                {
+                     customer = _bl.Customer.Read(CustomerId);
+                }
+                catch (BLExceptionIdNotExist)
+                {
+                    
+                }
+               
                 if (customer != null)
                 {
                     helloName.Text = Convert.ToString(customer.Name);
@@ -47,11 +56,12 @@ namespace UI
                 {
                     label4.Visible = false;
                     helloName.Visible = false;
+
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("אירעה שגיאה בעת שליפת המוצר: " + ex.Message,
+                MessageBox.Show("אירעה שגיאה בעת שליפת הלקוח: " + ex.Message,
                                 "שגיאה", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -60,7 +70,7 @@ namespace UI
         {
             try
             {
-                if (int.TryParse(codeProductInputTםDelete.Text, out int productId))
+                if (int.TryParse(codeProductInputTDelete.Text, out int productId))
                 {
                     ProductInOrder productInOrder = new ProductInOrder
                     {
@@ -99,7 +109,9 @@ namespace UI
                 int amount = (int)amountToOrderProduct.Value; // המרה מ-decimal ל-int
                                                               // כאן נוודא שהפרמטרים מתאימים למה שהמתודה מצפה
                 _bl.Order.AddProductToOrder(Order, productId, amount);
-                MessageBox.Show(Order.ProductsInOrder.Count.ToString());
+                //MessageBox.Show(Order.ProductsInOrder.Count.ToString());
+                codeProductToAdd.Text = "";
+                amountToOrderProduct.Value = 1;
                 RefreshProductsInOrderList();
                 MessageBox.Show("המוצר נוסף בהצלחה!", "הצלחה", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
@@ -117,12 +129,10 @@ namespace UI
             {
                 List<ProductInOrder?> productsInOrderList = Order.ProductsInOrder;
                 myOrder.Items.Clear();
-
                 foreach (var product in productsInOrderList)
                 {
                     if (product != null)
                     {
-                        //נופל בשורה הזו!
                         var productDetails = product.ToString() + "\n----------------------------";
                         // פיצול למיתרים ואז הוספה לכל פריט ברשימה
                         var productLines = productDetails.Split("\n");
@@ -145,6 +155,11 @@ namespace UI
             try
             {
                 List<Product?> products = _bl.Product.ReadAll();
+                List<Sale?> sales = _bl.Sale.ReadAll();
+                foreach (var item in sales)
+                {
+                    products.Find(p => p.ProductId == item.ProductId)?.SalesInProduct.Add(new SaleInProduct(item.SaleId,0,item.SalePrice,item.ClubSale));
+                }
                 listProduct.Items.Clear();
 
                 foreach (var product in products)
@@ -171,7 +186,7 @@ namespace UI
         private void deleteFromOrder_Click(object sender, EventArgs e)
         {
 
-            //if (int.TryParse(codeProductInputTםDelete.Text, out int productId))
+            //if (int.TryParse(codeProductInputTDelete.Text, out int productId))
             //{
             //    // חפש את המוצר ברשימת המוצרים בהזמנה
             //    var productToRemove = Order.ListProductInOrder.FirstOrDefault(p => p.IdProductInOrder == productId);
@@ -200,7 +215,7 @@ namespace UI
         {
             try
             {
-                if (int.TryParse(codeProductInputTםDelete.Text, out int productId))
+                if (int.TryParse(codeProductInputTDelete.Text, out int productId))
                 {
                     // חפש את המוצר ברשימת המוצרים בהזמנה
                     var productToRemove = Order.ProductsInOrder.FirstOrDefault(p => p.ProductId == productId);
@@ -209,7 +224,9 @@ namespace UI
                     {
                         // הסר את המוצר מהרשימה
                         Order.ProductsInOrder.Remove(productToRemove);
+                        Order.Price -= productToRemove.FinalPrice;
                         RefreshProductsInOrderList();
+                        sumOrder.Text = Order.Price.ToString();
                         MessageBox.Show("המוצר הוסר מההזמנה.");
                     }
                     else
